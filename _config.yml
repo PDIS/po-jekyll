@@ -1,7 +1,7 @@
 # Site settings
 title:          Tale
 description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
+baseurl:        ""
 url:            "https://chesterhow.github.io"
 
 # Author
@@ -26,3 +26,14 @@ plugins:
 # Permalinks
 permalink:      /:year-:month-:day/:title
 paginate:       5
+
+languages: ["en", "zh-TW"]
+exclude_from_localizations: ["assets", "CNAME"]
+defaultLang: en
+languageNames:
+  zh-TW: 繁體中文
+  en: English
+
+collections:
+  blogs:
+    output: true

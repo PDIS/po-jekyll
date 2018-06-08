@@ -1,0 +1,15 @@
+site:
+  logo: Tale
+  nav:
+    about: About
+    posts: Posts
+
+post:
+  top: top
+
+pages:
+  about: "About"
+
+blogs:
+  IntroducingTale: Introducing Tale
+  ExampleContent: Example Content

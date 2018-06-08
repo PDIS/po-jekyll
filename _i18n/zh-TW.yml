@@ -1,0 +1,15 @@
+site:
+  logo: 泰勒
+  nav:
+    about: 關於
+    posts: 文章們
+
+post:
+  top: 回到頂端
+
+pages:
+  about: 關於
+
+blogs:
+  IntroducingTale: 泰勒的簡介
+  ExampleContent: 文章內容範例
