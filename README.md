@@ -1,8 +1,11 @@
-# Tale + i18n plugin 
+# PO Network's website (jekyll)
 
 ### clone 這個 Repo
 ```
 git clone --recurse-submodules https://github.com/mark19891107/tale-jekyll-i18n
 ```
 
-剩下還沒寫完...
+### run 這個 Repo
+```
+jykell s
+```
