@@ -13,3 +13,20 @@ pages:
 blogs:
   IntroducingTale: 泰勒的簡介
   ExampleContent: 文章內容範例
+
+nav:
+  about: 關於
+  toolkit: 工具單
+  case: 案例研析
+
+drawer:
+  about: 關於
+  toolkit: 工具單
+  tool:
+    issueCard: 議題卡
+    issueMappingInstruction: 議題分析表
+    persona: 人物誌
+    ideaDevelopmentSheet: 概念發展單
+    serviceBlueprint: 服務藍圖
+  case: 案例研析
+  blog: PDIS 部落格

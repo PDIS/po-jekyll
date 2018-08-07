@@ -13,3 +13,21 @@ pages:
 blogs:
   IntroducingTale: Introducing Tale
   ExampleContent: Example Content
+
+nav:
+  about: About
+  toolkit: Toolkit
+  case: Case Study
+
+drawer:
+  about: About
+  toolkit: Toolkit
+  tool:
+    issueCard: Issue Card
+    issueMappingInstruction: Issue Mapping Instruction
+    persona: Persona
+    ideaDevelopmentSheet: Idea Development Sheet
+    serviceBlueprint: Service Blueprint
+  case: Case Study
+  blog: PDIS Blog
+
