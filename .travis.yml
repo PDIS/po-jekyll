@@ -1,0 +1,14 @@
+language: ruby
+rvm:
+- 2.4.1
+script:
+- bundle exec jekyll build
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: "$GITHUB_TOKEN"
+  local_dir: _site
+  keep-history: true
+env:
+  global:
+    secure: H0Bh1tL878M3qdTT/FibXaQMzjBZy5dfJfI7hYYGZ+rBXBW1zqgBGS7MiGyr8UjnlkjotGvIp91p64mh0FGOZDmiayfMhVxU6DUy3c4IpQIdCrNWy1h1yGyIBXxyMHEF7Po8o3SHsTRdddnouAvYnt6QAaQKdIu32si6WI2JYt/Mr9pnpVYkKO5ZYmM/1v9qEyQWJ+nXSMJ+pWWPLqLG4ki2uqfQNSu0mlQauBClyDMxEh7LyjZV0JXUuM5GHYuKSSPAOR/aoF3tiYH5nmjLQQwq6HsZVdcJmDWguEXfG0pjJ+eWcRZAPjCSFISyshrtqtF3E9wReD90bpDyS7ZN9jCTOMxlSFaWHSQ12pNfHXgRpbmPlvGqziQr8rCL0uHzNZfuNcV+Q+vOQgYLxeD2K+FQrFSBJOJxBPahHlH0EnduKGTtAIzX9TVUJQZsFwutEzleo5vECNRK3ROZOItRSgHXfC47rNC7GihdCTxj9oKjRHPW3CC/8KCZcX8aGcmKEgpWVmGA1Buk0Fj8XeH1OYySJYkNVhBGqexiwfg6+xWqzs/HwzMnsq1ng/GA0NQqm3HPaxtJyEGwmOKBuaf/NbJKdfpQaJodX+ik4qe9feY9z6lKYDbjrMC9mMLvxKEnPyQt65jObzh3hlnAq17LCMYBtdFKA51HPxzs6rMahpA=
